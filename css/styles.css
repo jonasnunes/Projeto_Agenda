@@ -1,0 +1,146 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+html{
+    min-height: 100vh;
+    position: relative;
+}
+
+main.container h1.main-title{
+    text-align: center;
+    margin: 0.9375rem 0 1.875rem;
+}
+
+/* HOME */
+main.container table.contacts-table{
+    max-width: 70%;
+    margin: 0 auto;
+}
+
+main.container table.contacts-table thead{
+    color: #fff;
+    background-color: #007bff;
+}
+
+main.container table.contacts-table tbody tr td.col-id{
+    font-weight: bold;
+}
+
+main.container table tbody tr td.actions{
+    text-align: right;
+    width: 150px;
+}
+
+main.container table tbody tr td.actions i{
+    font-size: 1.125rem;
+    margin-right: 5px;
+}
+
+main.container table tbody tr td.actions a i.check-icon{
+    color: #1e7e34;
+}
+
+main.container table tbody tr td.actions a i.edit-icon{
+    color: #007bff;
+}
+
+main.container table tbody tr td.actions form.delete-form button i.delete-icon{
+    color: #bd2130;
+}
+
+main.container table tbody tr td.actions form.delete-form{
+    display: inline-block;
+}
+
+main.container table tbody tr td.actions button{
+    border: none;
+    background-color: transparent;
+}
+
+/* SHOW CONTATO INDIVIDUAL */
+main.view-contact-container{
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+main.view-contact-container h1.main-title{
+    text-align: center;
+    margin: 0.9375rem 0 1.875rem;
+}
+
+div.back-link-container{
+    display: block;
+    width: 500px;
+    margin: 1.875rem auto 0;
+}
+
+div.back-link-container a.back-link{
+    border: 1px solid #007bff;
+    color: #007bff;
+    border-radius: 4px;
+    padding: 5px;
+    text-decoration: none;
+}
+
+/* ADICIONAR / EDITAR CONTATO */
+
+main.container form.create-form,
+form.edit-form{
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+main.container form.create-form div.form-group,
+main.container form.edit-form div.form-group{
+    margin-block: .8rem;
+}
+
+main.container form.create-form div.form-group label,
+main.container form.edit-form div.form-group label{
+    display: block;
+    margin-bottom: .5rem;
+}
+
+main.container form.create-form div.form-group textarea,
+main.container form.edit-form div.form-group textarea{
+    resize: none;
+    width: 100%;
+}
+
+/* MENSAGENS CASO NÃO HAJA CONTATOS CADASTRADOS */
+
+main.container p.empty-list-text{
+    text-align: center;
+}
+
+main.container p.msg{
+    color: #155724;
+    background-color: #d4edda;
+    border: 1px solid #c3e6cb;
+    padding: 0.625rem;
+    text-align: center;
+    max-width: 500px;
+    margin: 1.875rem auto 0;
+}
+
+/* FOOTER */
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p{
+    text-align: center;
+}
+
+/* MOBILE */
+@media(max-width: 480px){
+    header nav div div.navbar-nav a.home-link{
+        display: none;
+    }
+}
