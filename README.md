@@ -59,4 +59,4 @@
 
 * Não se esqueça de ligar o Apache
 * Coloque o código na pasta www
-* Vá no seu navegador e coloque a URL localhost/Projeto_Blog/index.php
+* Vá no seu navegador e coloque a URL localhost/Projeto_Agenda/index.php
